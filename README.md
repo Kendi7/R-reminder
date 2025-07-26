@@ -1,6 +1,6 @@
 
 
-#**Project Title**: Rent Reminder Automation via GitHub Actions
+**Project Title**: Rent Reminder Automation via GitHub Actions
 
 **Project Description**:
 This project automates the process of sending daily rent reminder emails using GitHub Actions and Python. Instead of running scripts manually on a local machine or server, this solution leverages GitHub’s CI/CD infrastructure to run a Python script on a scheduled basis (daily at a set time) and send email notifications through Gmail to specified recipients.
