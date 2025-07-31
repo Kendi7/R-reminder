@@ -19,7 +19,7 @@ last_day = calendar.monthrange(today.year, today.month)[1]
 reminder_day = last_day - 7
 
 # --- FOR TESTING: Force send regardless of the date ---
-force_send = True  # Set to False in production
+force_send = False # Set to False in production
 
 if not force_send and today.day != reminder_day:
     print(f"📅 Not the reminder day ({today}). Will run again tomorrow.")
